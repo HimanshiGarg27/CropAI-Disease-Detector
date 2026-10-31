@@ -153,7 +153,7 @@ except Exception as e:
     labels = {}
 
 # YOUR ACTUAL API KEY CONFIGURED HERE
-genai.configure(api_key=st.secrets["  GEMINI API_KEY"])
+genai.configure(api_key=st.secrets["GEMINI API_KEY"])
 chat_model = genai.GenerativeModel('gemini-3.6-flash')
 
 # ==========================================
